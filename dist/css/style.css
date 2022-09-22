@@ -31,6 +31,8 @@ main .articleWrap ul {
   justify-content: space-between;
 }
 main .articleWrap ul li {
+  display: flex;
+  align-items: stretch;
   width: 31.6666666667%;
   margin-bottom: 30px;
 }
@@ -60,15 +62,30 @@ main .articleWrap ul li .articleText h2 {
   margin: 10px 0;
 }
 main .articleWrap ul li .articleText p {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+main .articleWrap ul li .articleText .date {
+  padding-bottom: 20px;
+  font-size: 0.8rem;
+  color: #7b7b7b;
 }
 main .articleWrap ul li .articleList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding-top: 20px;
   background-color: #fff;
   border-radius: 10px;
 }
 main .articleWrap ul li .articleList:hover .articleImg img {
   transform: scale(1.1);
+}
+main .articleWrap ul li a {
+  display: flex;
+  align-items: stretch;
+}
+main .articleWrap .hide {
+  display: none;
 }
 main .pageNavWrap {
   display: flex;
