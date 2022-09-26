@@ -50,7 +50,7 @@ const articleSplit = (num, arr) => {//アイテムを6個ずつに分割する
 
 const pageNavEvent = (num) => {
     if (num == 1) {
-        location.href = originUrl;
+        location.href = originUrl + urlPath;
     } else {
         location.hash = num
         location.reload();
