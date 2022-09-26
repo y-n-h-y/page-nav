@@ -52,7 +52,7 @@ const pageNavEvent = (num) => {
     if (num == 1) {
         location.href = originUrl;
     } else {
-        location.hash = num;
+        location.hash = num
         location.reload();
     }
 }

@@ -36,9 +36,14 @@ main .articleWrap ul li {
   width: 31.6666666667%;
   margin-bottom: 30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   main .articleWrap ul li {
     width: 47.5%;
+  }
+}
+@media screen and (max-width: 640px) {
+  main .articleWrap ul li {
+    width: 100%;
   }
 }
 main .articleWrap ul li .articleImg {
